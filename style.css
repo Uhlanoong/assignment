@@ -1,0 +1,92 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* header starts */
+.banner-section {
+  color: white;
+}
+.bg-header {
+  background-color: #264653;
+}
+.pc {
+  font-size: 12px;
+  font-weight: 300;
+}
+.desc {
+  font-size: 12px;
+  font-weight: 300;
+}
+.btn-purchase {
+  background-color: #e76f51;
+  color: white;
+}
+/* header ends */
+
+/* feature starts */
+.bg-feature {
+  background-color: #e5e5e5;
+}
+.collection {
+  color: #e76f51;
+}
+.bike .gray {
+  filter: grayscale(700);
+}
+
+/* feature ends */
+
+/* client starts */
+.client {
+  color: #e76f51;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.empty {
+  color: #aeaeae;
+}
+.fa-star.checked {
+  color: #e77c40;
+}
+
+/* faq section */
+.question img {
+  width: 26rem;
+  height: 25rem;
+}
+
+/* newsletter */
+.searchsection {
+  background: url(img/abstract-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+/* partnership */
+
+.partnership img {
+  width: 100px;
+  height: 100px;
+}
+
+/* footer */
+.bg-footer {
+  background-color: #1c486b;
+  color: white;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
